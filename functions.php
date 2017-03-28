@@ -117,11 +117,6 @@ require get_template_directory() . '/inc/jetpack.php';
  */
 
 /**
- * Load Custom theme features.
- */
-require get_template_directory() . '/inc/custom-theme-settings.php';
-
-/**
  * Load custom post types.
  */
 require get_template_directory() . '/inc/custom-post-types.php';
