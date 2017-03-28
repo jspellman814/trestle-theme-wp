@@ -131,6 +131,11 @@ require get_template_directory() . '/inc/custom-taxonomies.php';
  */
 require get_template_directory() . '/inc/custom-widgets.php';
 
+/**
+ * Load schema.
+ */
+require get_template_directory() . '/inc/schema.php';
+
 
 /**
  * ----------------------------------------
