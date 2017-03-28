@@ -14,8 +14,8 @@
 
 get_header(); ?>
 
-    <div id="primary" class="content-area">
-        <main id="main" class="site-main" role="main">
+    <div id="content" class="content-area">
+        <main class="site-main" role="main">
 
             <?php include(get_template_directory() . '/template-parts/content-page.php'); ?>
 

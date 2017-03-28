@@ -64,4 +64,4 @@
         <!-- .inner-wrapper -->
     </div>
 
-    <div id="content" class="site-content">
+    <div id="main" class="site-content inner-wrapper">

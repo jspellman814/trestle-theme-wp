@@ -33,9 +33,9 @@ function trestle_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();
 		if ( is_search() ) :
-			get_template_part( 'template-parts/content', 'search' );
-		else :
-			get_template_part( 'template-parts/content', get_post_format() );
+            include(get_template_directory() . '/template-parts/content-search.php');
+        else :
+            include(get_template_directory() . '/template-parts/content.php');
 		endif;
 	}
 }

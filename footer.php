@@ -13,7 +13,7 @@
 
 <div class="back-to-top"></div>
 
-</div><!-- #content -->
+</div><!-- #main -->
 
 <footer id="footer" class="site-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter" role="contentinfo">
 	<div class="inner-wrapper footer-blocks">
