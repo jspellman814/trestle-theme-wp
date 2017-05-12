@@ -1,5 +1,4 @@
-# trestle-theme-wp
-Trestle base theme for WordPress, based on Underscores
+# Trestle base theme for WordPress
 UI elements provided by https://github.com/rayestrada/toolkit
 
 ### Create a subtheme
