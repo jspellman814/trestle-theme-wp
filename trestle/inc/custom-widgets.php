@@ -24,7 +24,7 @@ function trestle_widgets_init()
 
     register_sidebar( array(
         'name'          => esc_html__( 'Sidebar First', 'trestle' ),
-        'id'            => 'sidebar-1',
+        'id'            => 'sidebar-first',
         'class'         => 'sidebar-first',
         'description'   => esc_html__( 'Add widgets here.', 'trestle' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -35,7 +35,7 @@ function trestle_widgets_init()
 
     register_sidebar( array(
         'name'          => esc_html__( 'Sidebar Second', 'trestle' ),
-        'id'            => 'sidebar-2',
+        'id'            => 'sidebar-second',
         'class'         => 'sidebar-second',
         'description'   => esc_html__( 'Add widgets here.', 'trestle' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
